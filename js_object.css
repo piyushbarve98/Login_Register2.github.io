@@ -1,0 +1,78 @@
+@import "https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" ;
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
+    height: 90vh;
+    background-size: cover;
+    background-image: url('2754227.jpg');
+
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid black; */
+    padding: 60px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.815);
+   
+
+
+}
+form:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  }
+h2{
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding: 6px 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 250, 54, 0.829);
+    color: white;
+    letter-spacing: 2px;
+
+}
+form input{
+    width: 250px;
+    padding: 7px 16px;
+    margin: 20px;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    border:none;
+    border-bottom: 4px solid rgba(34, 209, 18, 0.836);
+    outline: none;
+    border-radius: 16px;
+    
+    
+}
+
+button{
+    padding: 8px 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    background-color: rgba(40, 224, 40, 0.897);
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: none;
+    
+}
+button:hover{
+    background-color: rgba(0, 250, 54, 0.829);
+}
